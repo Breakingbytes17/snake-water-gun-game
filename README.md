@@ -1,8 +1,47 @@
-# snake-water-gun-game
-Description: Briefly explain what the game is (a Rock-Paper-Scissors variant called Snake-Water-Gun, where Snake beats Water, Water beats Gun, and Gun beats Snake).
-Requirements: Mention that Python 3.x is needed.
-Installation/Setup: Note any dependencies (none apparent, as it uses only standard libraries).
-How to Run: Provide a command like python repo1.py and describe the input format (e.g., enter 'r' for rock/snake, 'p' for paper/water, 's' for scissors/gun).
-Game Rules: List the winning conditions clearly.
-Contributing/License: Add if applicable, or a simple MIT license note.
-Author/Contact: Your details if desired.
+Snake Water Gun Game 🐍💧🔫
+
+A simple Python implementation of the classic Snake-Water-Gun game (similar to Rock-Paper-Scissors).
+
+🎮 Rules
+
+- Snake drinks Water → Snake wins
+- Water damages Gun → Water wins
+- Gun kills Snake → Gun wins
+- Same choice → Draw
+
+🚀 Features
+
+- User vs Computer gameplay
+- Random choice generation
+- Input handling
+- Simple and beginner-friendly logic
+
+▶️ How to Run
+
+1. Install Python
+2. Run the program:
+
+python snake_water_gun.py
+
+🧠 Concepts Used
+
+- Conditional statements ("if-else")
+- Random module
+- User input handling
+- Basic game logic
+
+📌 Example
+
+Enter your choice (s/w/g): s
+Computer chose: w
+You win!
+
+🔧 Future Improvements
+
+- Add score tracking
+- Add multiple rounds
+- Create GUI version
+
+👤 Author
+
+Subbu
